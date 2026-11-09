@@ -1,0 +1,14 @@
+,1. Raw features,2. Ratios replace raw counts,3. + interaction terms
+bedrooms_per_room,,2.73,3.13
+households,28.28,,
+housing_median_age,1.26,1.12,5.27
+income_x_age,,,8.89
+income_x_log_rooms,,,105.21
+latitude,8.83,9.6,9.83
+log_population_per_household,,1.03,1.06
+log_rooms_per_household,,2.76,6.67
+longitude,8.7,9.23,9.43
+median_income,1.69,2.06,101.04
+population,6.26,,
+total_bedrooms,26.88,,
+total_rooms,12.13,,

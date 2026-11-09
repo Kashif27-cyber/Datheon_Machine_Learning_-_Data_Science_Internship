@@ -1,0 +1,22 @@
+{
+  "best_feature_set": "Engineered + interactions",
+  "best_model": "Lasso (L1)",
+  "numeric_features": [
+    "longitude",
+    "latitude",
+    "housing_median_age",
+    "median_income",
+    "log_rooms_per_household",
+    "log_population_per_household",
+    "bedrooms_per_room",
+    "income_x_log_rooms",
+    "income_x_age"
+  ],
+  "categorical_features": [
+    "ocean_proximity"
+  ],
+  "baseline_rmse": 114165.27031417929,
+  "test_rmse": 58846.17592255655,
+  "note": "Input must be passed through engineer_features() first.",
+  "seed": 42
+}
