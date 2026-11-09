@@ -1,0 +1,15 @@
+{
+  "best_model": "Logistic Regression",
+  "labels": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "seed": 42
+}
