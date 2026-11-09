@@ -1,0 +1,44 @@
+{
+  "best_model": "XGBoost",
+  "threshold": 0.5948055386543274,
+  "test_roc_auc": 0.8475,
+  "features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "seed": 42,
+  "best_params": {
+    "Random Forest": {
+      "n_estimators": 500,
+      "min_samples_leaf": 10,
+      "max_features": 0.5,
+      "max_depth": 6
+    },
+    "XGBoost": {
+      "subsample": 0.7,
+      "reg_lambda": 1,
+      "n_estimators": 600,
+      "min_child_weight": 1,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "colsample_bytree": 0.8
+    }
+  }
+}

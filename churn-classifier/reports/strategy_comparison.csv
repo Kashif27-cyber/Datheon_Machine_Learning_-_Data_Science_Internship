@@ -1,0 +1,10 @@
+Model,Strategy,roc_auc,pr_auc,recall,precision,f1,roc_auc_std
+Logistic Regression,none,0.8461,0.6615,0.5438,0.6521,0.5924,0.0126
+Logistic Regression,class weights,0.846,0.6601,0.8013,0.5169,0.6282,0.0124
+Logistic Regression,SMOTE,0.8447,0.657,0.7886,0.5267,0.6314,0.0132
+Random Forest,none,0.8411,0.648,0.4957,0.6647,0.5676,0.0084
+Random Forest,class weights,0.8412,0.6456,0.689,0.5784,0.6286,0.009
+Random Forest,SMOTE,0.8365,0.6283,0.6462,0.589,0.6161,0.0085
+XGBoost,none,0.8467,0.6693,0.5244,0.666,0.5864,0.0118
+XGBoost,class weights,0.8467,0.6698,0.7973,0.5241,0.6324,0.0119
+XGBoost,SMOTE,0.8449,0.6626,0.6562,0.6018,0.6276,0.0112

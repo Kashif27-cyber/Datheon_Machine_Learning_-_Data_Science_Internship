@@ -1,0 +1,21 @@
+model,rank,feature,importance
+Random Forest,1,Contract_Month-to-month,0.33965849106969354
+Random Forest,2,OnlineSecurity_No,0.11007109494684625
+Random Forest,3,tenure,0.09686145019482281
+Random Forest,4,TotalCharges,0.06858507951303587
+Random Forest,5,TechSupport_No,0.06533932420123768
+Random Forest,6,MonthlyCharges,0.0649797166244908
+Random Forest,7,InternetService_Fiber optic,0.060617888313249546
+Random Forest,8,Contract_Two year,0.05968419894289864
+Random Forest,9,Contract_One year,0.02066073421583276
+Random Forest,10,PaymentMethod_Electronic check,0.015816082614548727
+XGBoost,1,Contract_Month-to-month,0.31174641847610474
+XGBoost,2,OnlineSecurity_No,0.1295555680990219
+XGBoost,3,TechSupport_No,0.07557599991559982
+XGBoost,4,InternetService_Fiber optic,0.06380338221788406
+XGBoost,5,PaymentMethod_Electronic check,0.04645099490880966
+XGBoost,6,Contract_Two year,0.0379224456846714
+XGBoost,7,OnlineSecurity_No internet service,0.03754183277487755
+XGBoost,8,tenure,0.02170947939157486
+XGBoost,9,StreamingMovies_Yes,0.01885872706770897
+XGBoost,10,InternetService_No,0.017553076148033142
